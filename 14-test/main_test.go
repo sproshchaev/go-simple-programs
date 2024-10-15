@@ -4,12 +4,8 @@ import (
 	"testing"
 )
 
-// Sum - функция, которая будет тестироваться.
-func Sum(a, b int) int {
-	return a + b // Реализация функции не требуется
-}
-
 // TestSum - тест для функции Sum.
+// Запуск тестов go test
 func TestSum(t *testing.T) {
 	// Тест с положительными числами
 	result := Sum(1, 1)
