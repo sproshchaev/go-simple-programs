@@ -6,6 +6,7 @@ import (
 
 // TestMultiply - тест для функции Multiply.
 // go test                  - проходят
+// go test -v               - проходят (вывод информации по тестам)
 // go test -v main3_test.go - не проходят
 func TestMultiply(t *testing.T) {
 	// Тест с положительными числами
