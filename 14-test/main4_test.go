@@ -12,8 +12,11 @@ func TestDeleteVowels(t *testing.T) {
 		input string
 		expected string
 	}{
-		{"qwerty", "qwrty"},
 		{"abc", "bc"},
+		{"qwerty", "qwrty"},
+		{"igls", "gls"},
+		{"ot", "t"},
+		{"uk", "k"},
 	} 
 
 	// Цикл по тестовым случаям
